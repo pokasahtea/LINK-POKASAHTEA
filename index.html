@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kenali POKASAH TEA, teh herbal dari tanaman pokak dengan kemasan unik yang mudah larut.">
+  <title>POKASAH TEA | Teh Herbal Tanaman Pokak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Nunito:wght@500;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Daun hijau dipakai berulang untuk dekorasi -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fb046"/><stop offset="1" stop-color="#3f7a2c"/></linearGradient>
+      <symbol id="leaf" viewBox="0 0 100 60"><path d="M2 58C10 20 45 2 98 4 94 38 60 62 2 58Z" fill="url(#lg)"/><path d="M4 56C35 36 65 20 94 8" stroke="#2f5f21" stroke-width="2" fill="none" opacity=".6"/></symbol>
+      <symbol id="spark" viewBox="0 0 40 40"><g stroke="currentColor" stroke-width="4" stroke-linecap="round"><path d="M5 22L12 28"/><path d="M16 8L19 17"/><path d="M33 13L26 20"/></g></symbol>
+    </defs>
+  </svg>
+
+  <main class="page">
+
+    <header class="hero">
+      <h1 class="sr-only">POKASAH TEA — Nikmat, Sehat, dan Ramah Lingkungan</h1>
+      <img src="assets/hero.jpg" alt="POKASAH TEA, secangkir teh herbal dan kemasan teh">
+    </header>
+
+    <section class="video-panel">
+      <svg class="spark s-video"><use href="#spark"/></svg>
+      <div class="video-heading">
+        <span class="play-icon"><i></i></span>
+        <div>
+          <h2>Lihat Video Produk</h2>
+          <p>Kenali proses pembuatan dan<br>informasi lengkap tentang POKASAH TEA!</p>
+        </div>
+      </div>
+      <a class="video-link" id="videoLink" href="#" target="_blank" rel="noopener" aria-label="Tonton video POKASAH TEA">
+        <img src="assets/video-thumbnail.jpg" alt="Video proses pembuatan POKASAH TEA">
+      </a>
+    </section>
+
+    <nav class="contacts" aria-label="Kontak POKASAH TEA">
+      <a class="contact c1" id="emailLink" href="#">
+        <svg viewBox="0 0 48 48"><rect x="4" y="9" width="40" height="30" rx="4"/><path d="M5 12l19 16L43 12"/></svg>Email
+      </a>
+      <a class="contact c2" id="whatsappLink" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 48 48"><path d="M24 4a20 20 0 0 0-17 30.500L4 44l9.800-2.800A20 20 0 1 0 24 4z"/><path d="M17 15c-1 3 0 7 4 11s8 5.500 11 4.500l1.500-3-4-2-2 1.500c-2-1-4.500-3.500-5.500-5.500l1.500-2-2-4z"/></svg>WhatsApp
+      </a>
+      <a class="contact c3" id="instagramLink" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 48 48"><rect x="5" y="5" width="38" height="38" rx="11"/><circle cx="24" cy="24" r="9"/><circle cx="35" cy="13" r="1.500"/></svg>Instagram
+      </a>
+    </nav>
+
+    <section class="about">
+      <svg class="leaf l-title"><use href="#leaf"/></svg>
+      <svg class="leaf l-r1"><use href="#leaf"/></svg>
+      <svg class="leaf l-r2"><use href="#leaf"/></svg>
+      <svg class="spark s-about"><use href="#spark"/></svg>
+
+      <h2>Kenali POKASAH TEA</h2>
+      <p class="about-intro">Teh herbal inovatif dari tanaman pokak<br>dengan kemasan unik yang mudah larut!</p>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="assets/pokak.jpg" alt="Tanaman pokak">
+          <div><h3>Bahan Alami</h3><p>Menggunakan tanaman pokak sebagai bahan utama.</p></div>
+        </article>
+        <article class="feature-card">
+          <img src="assets/packaging.jpg" alt="Kemasan teh">
+          <div><h3>Kemasan Unik</h3><p>Dibuat dari gelatin dan cangkang telur yang mudah larut.</p></div>
+        </article>
+        <article class="feature-card">
+          <img src="assets/tea-glass.jpg" alt="Secangkir teh pokak">
+          <div><h3>Rendah Gula</h3><p>Sehat untuk tubuh tanpa rasa manis berlebih.</p></div>
+        </article>
+        <article class="feature-card">
+          <img src="assets/eco.jpg" alt="Bumi hijau">
+          <div><h3>Ramah Lingkungan</h3><p>Kemasan larut alami, lebih peduli bumi.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <svg class="leaf f-l1"><use href="#leaf"/></svg>
+      <svg class="leaf f-l2"><use href="#leaf"/></svg>
+      <svg class="leaf f-r1"><use href="#leaf"/></svg>
+      <svg class="leaf f-r2"><use href="#leaf"/></svg>
+      <strong>POKASAH TEA</strong>
+      <p><span class="ln"></span>“Pilihan Sehat untuk Hidup Lebih Baik”<span class="ln"></span></p>
+    </footer>
+  </main>
+  <div class="leaf-fall" id="leafFall" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
